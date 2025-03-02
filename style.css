@@ -257,3 +257,24 @@ h1, h2 {
     font-family: 'poppins', sans-serif;
     font-weight: bold;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media  screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+    .menu {
+        font-size: 14px;
+    }
+}
+.button{
+    padding: 15px 25px;
+    font-size: 18px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
