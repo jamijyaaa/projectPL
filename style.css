@@ -4,7 +4,7 @@
 }
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(IMG_7313.JPG);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(haikyuu.jpg);
    
  background-position: center;
   background-size: cover;
@@ -23,7 +23,7 @@
 .logo{
     color: rgb(221, 111, 7);
     font-size: 35px;
-    font-family: Arial;
+    font-family: 'Times New Roman';
     padding-left: 20px;
     float:left;
     padding-top: 10px;
@@ -67,7 +67,7 @@ ul li a:hover{
 
 }
 .srch{
-    font-family: 'Times New Roman';
+    font-family: arial;
     width: 200px;
     height: 40px;
     background: transparent;
@@ -145,7 +145,6 @@ ul li a:hover{
     background-color: #fff;
 }
 .content span{
-    color: rgb(221, 111, 7);
     font-size: 60px;
 }
 .form{
@@ -228,23 +227,33 @@ ul li a:hover{
     text-decoration: none;
     color: rgb(221, 111, 7);
 }
-.liw{
+
+.liw {
     padding-top: 15px;
     padding-bottom: 10px;
     text-align: center;
 }
-.icon a{
-    text-decoration: none;
-    color: #fff;
 
+.icon {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px;
 }
-.icon ion-icon{
+
+.icon a {
+    text-decoration: none; 
+}
+
+.icon ion-icon {
     color: #fff;
-    font-size: 30px;
-    padding-left: 14px;
-    padding-top: 5px;
+    font-size: 30px; 
     transition: 0.3s ease;
 }
-.icon ion-icon:hover{
-    color: rgb(221, 111, 7);
+
+.icon ion-icon:hover {
+    color: rgb(221, 111, 7); 
+}
+h1, h2 {
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
 }
